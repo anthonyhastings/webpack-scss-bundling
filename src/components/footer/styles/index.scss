@@ -1,0 +1,30 @@
+// --------------------------
+// Includes
+// --------------------------
+
+@import '../../core/styles/variables';
+@import '../../core/styles/mixins';
+
+// --------------------------
+// Styles
+// --------------------------
+
+.global-footer {
+    background-color: palette(scorpion, base);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7.5rem;
+
+    @at-root {
+        .global-footer__copy {
+            color: palette(white, base);
+            text-align: center;
+        }
+
+        .global-footer__link {
+            color: palette(white, base);
+        }
+    }
+}

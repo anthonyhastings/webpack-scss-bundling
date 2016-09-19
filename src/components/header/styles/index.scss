@@ -1,0 +1,26 @@
+// --------------------------
+// Includes
+// --------------------------
+
+@import '../../core/styles/variables';
+@import '../../core/styles/mixins';
+
+// --------------------------
+// Styles
+// --------------------------
+
+.global-header {
+    background-color: palette(scorpion, base);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7.5rem;
+
+    @at-root {
+        .global-header__copy {
+            color: palette(white, base);
+            text-align: center;
+        }
+    }
+}

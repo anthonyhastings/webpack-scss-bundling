@@ -1,0 +1,17 @@
+// --------------------------
+// Includes
+// --------------------------
+
+@import '../../core/styles/variables';
+@import '../../core/styles/mixins';
+
+// --------------------------
+// Styles
+// --------------------------
+
+.global-main {
+    flex: 1 0 auto;
+    max-width: map-get($max-widths, section);
+    padding: 5% 10%;
+    margin: 0 auto;
+}
