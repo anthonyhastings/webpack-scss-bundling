@@ -8,8 +8,8 @@
   "scripts": {
     "build": "npm run-script html && npm run-script webpack",
     "html": "copyfiles -f src/html/*.html dist/",
-    "webpack": "webpack",
-    "webpack-watch": "webpack --watch"
+    "watch": "npm run-script webpack -- --watch",
+    "webpack": "webpack"
   },
   "devDependencies": {
     "autoprefixer": "6.4.1",
